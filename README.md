@@ -7,13 +7,13 @@
 ### npm
 
 ```bash
- npm install j-utils --save
+ npm install @jiaoxiaoyuan/j-utils --save
 ```
 
 ### yarn
 
 ```bash
-yarn add j-utils --save
+yarn add @jiaoxiaoyuan/j-utils --save
 ```
 
 ## 使用
@@ -24,7 +24,7 @@ yarn add j-utils --save
 
 #### 引入
 
-import webJs from 'j-utils'
+import webJs from '@jiaoxiaoyuan/j-utils'
 
 #### 调用
 
@@ -34,7 +34,7 @@ webJs.方法名
 
 #### 引入
 
-let webJs = require('j-utils')
+let webJs = require('@jiaoxiaoyuan/j-utils')
 
 #### 调用
 
@@ -96,3 +96,7 @@ webJs.方法名
 | __getTimeToStamp(d)                         | d：YY-MM:DD HH:MM:SS格式日期                                                                                          | YY-MM:DD HH:MM:SS 转为毫秒时间戳                      |
 | __dateComputed(curDate, endDate, type)      | curDate：当前时间、endDate：结束时间，type:返回格式（ year: 返回 year、month、day、hour、minute、second、不传全部返回 | YY-MM:DD HH:MM:SS - YY-MM:DD HH:MM:SS（两个日期相减） |
 | __findNode(tree, func, path, dataStructure) | tree 树结构数据、func 方法、path []、dataStructure 自定义返回的数据对象、结果返回所有父节点及本身节点组成的一维数组   | 通过子节点的id查找他的所有父节点                      |
+
+### 发布
+
+npm publish --access=public
