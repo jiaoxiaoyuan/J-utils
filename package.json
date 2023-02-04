@@ -1,5 +1,5 @@
 {
-    "name": "j-utils",
+    "name": "@jiaoxiaoyuan/j-utils",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -7,6 +7,14 @@
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
-    "author": "",
-    "license": "ISC"
+    "author": "@jiaoxiaoyuan",
+    "license": "ISC",
+    "homepage": "https://www.mtsws.cn/",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/jiaoxiaoyuan/J-utils"
+    },
+    "publicConfig": {
+        "registry": "https://registry.npmjs.org/"
+    }
 }
