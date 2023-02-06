@@ -4,8 +4,9 @@
 
 ## 仓库
 
-github <https://github.com/jiaoxiaoyuan/J-utils>
-gitee <https://gitee.com/jiaoxiaoyuan_admin/J-utils>
+> github <https://github.com/jiaoxiaoyuan/J-utils>
+>
+> gitee <https://gitee.com/jiaoxiaoyuan_admin/J-utils>
 
 ## 安装
 
@@ -29,10 +30,10 @@ pnpm install @jiaoxiaoyuan/j-utils --save
 
 ## 升级版本
 
-npm安装指定版本: npm i @jiaoxiaoyuan/j-utils@1.0.3 --save
-npm升级指定版本的包：npm update @jiaoxiaoyuan/j-utils --save
-最新版本的包：npm i @jiaoxiaoyuan/j-utils@latest --save
-使⽤npm查看包的版本信息：npm list @jiaoxiaoyuan/j-utils
+> npm安装指定版本: npm i @jiaoxiaoyuan/j-utils@1.0.3 --save
+> npm升级指定版本的包：npm update @jiaoxiaoyuan/j-utils --save
+> 最新版本的包：npm i @jiaoxiaoyuan/j-utils@latest --save
+> 使⽤npm查看包的版本信息：npm list @jiaoxiaoyuan/j-utils
 
 ## 使用
 
