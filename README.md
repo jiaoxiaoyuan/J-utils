@@ -2,6 +2,11 @@
 
 这是一个web端常用的js工具方法函数库
 
+## 仓库
+
+github <https://github.com/jiaoxiaoyuan/J-utils>
+gitee <https://gitee.com/jiaoxiaoyuan_admin/J-utils>
+
 ## 安装
 
 ### npm
@@ -16,6 +21,19 @@
 yarn add @jiaoxiaoyuan/j-utils --save
 ```
 
+### pnpm
+
+```bash
+pnpm install @jiaoxiaoyuan/j-utils --save
+```
+
+## 升级版本
+
+npm安装指定版本: npm i @jiaoxiaoyuan/j-utils@1.0.3 --save
+npm升级指定版本的包：npm update @jiaoxiaoyuan/j-utils --save
+最新版本的包：npm i @jiaoxiaoyuan/j-utils@latest --save
+使⽤npm查看包的版本信息：npm list @jiaoxiaoyuan/j-utils
+
 ## 使用
 
 支持 esm、commonjs、requirejs 语法引入
@@ -24,7 +42,15 @@ yarn add @jiaoxiaoyuan/j-utils --save
 
 #### 引入
 
+```bash
 import webJs from '@jiaoxiaoyuan/j-utils'
+```
+
+或者
+
+```bash
+import { 方法名 } from '@jiaoxiaoyuan/j-utils'
+```
 
 #### 调用
 
@@ -34,7 +60,9 @@ webJs.方法名
 
 #### 引入
 
+```bash
 let webJs = require('@jiaoxiaoyuan/j-utils')
+```
 
 #### 调用
 
@@ -96,7 +124,3 @@ webJs.方法名
 | __getTimeToStamp(d)                         | d：YY-MM:DD HH:MM:SS格式日期                                                                                          | YY-MM:DD HH:MM:SS 转为毫秒时间戳                      |
 | __dateComputed(curDate, endDate, type)      | curDate：当前时间、endDate：结束时间，type:返回格式（ year: 返回 year、month、day、hour、minute、second、不传全部返回 | YY-MM:DD HH:MM:SS - YY-MM:DD HH:MM:SS（两个日期相减） |
 | __findNode(tree, func, path, dataStructure) | tree 树结构数据、func 方法、path []、dataStructure 自定义返回的数据对象、结果返回所有父节点及本身节点组成的一维数组   | 通过子节点的id查找他的所有父节点                      |
-
-### 发布
-
-npm publish --access=public
