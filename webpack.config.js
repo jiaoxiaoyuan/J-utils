@@ -11,7 +11,7 @@ module.exports = {
         // 打包文件
         filename: 'j-utils.js',
         // 向外暴露的对象的名称
-        library: 'webJs',
+        library: 'j-utils',
         // 打包生成库可以通过esm/commonjs/reqirejs的语法引入
         libraryTarget: 'umd',
         //解决使用时候有default属性层级的问题
