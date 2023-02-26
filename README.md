@@ -47,7 +47,7 @@ npm升级指定版本的包：npm update @jiaoxiaoyuan/j-utils --save
 #### 引入
 
 ```bash
-import webJs from '@jiaoxiaoyuan/j-utils'
+import utils from '@jiaoxiaoyuan/j-utils'
 ```
 
 或者
@@ -58,16 +58,16 @@ import { 方法名 } from '@jiaoxiaoyuan/j-utils'
 
 #### 调用
 
-webJs.方法名
+utils.方法名
 
 ### commonjs
 
 #### 引入
 
 ```bash
-let webJs = require('@jiaoxiaoyuan/j-utils')
+let utils = require('@jiaoxiaoyuan/j-utils')
 ```
 
 #### 调用
 
-webJs.方法名
+utils.方法名
