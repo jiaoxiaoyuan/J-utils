@@ -3,6 +3,11 @@
 
 这是一个web端常用的js工具方法函数库
 
+文档说明
+[https://jtoolset-docs.vercel.app/](https://jtoolset-docs.vercel.app/)
+
+
+
 
 ## 安装
 
