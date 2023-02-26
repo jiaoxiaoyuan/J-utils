@@ -1,0 +1,32 @@
+
+# 过滤数组中的唯一值
+
+## 语法
+
+```js
+import { filterUnique } from '@jiaoxiaoyuan/j-utils'
+const result = filterUnique(arr)
+```
+
+## 参数
+
+- `arr` (**Array**) ： 需要过滤的数组。
+
+## 返回值
+
+**Array** ： 过滤后的数组。
+
+## 源码
+
+```js
+const filterUnique = (arr) => arr.filter((i) => arr.indexOf(i) !== arr.lastIndexOf(i));
+```
+
+## 例子
+
+```js
+import { filterUnique } from '@jiaoxiaoyuan/j-utils'
+const arr = [1,2,2,3,3,4,5,5,6]
+const result = filterUnique(arr)
+console.log(result) //=> [2,2,3,3,5,5]
+```

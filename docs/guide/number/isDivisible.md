@@ -1,0 +1,35 @@
+
+# 判断数字是否可以整除
+
+## 语法
+
+```js
+import { isDivisible } from '@jiaoxiaoyuan/j-utils'
+const result1 = isDivisible(dividend, divisor)
+```
+
+## 参数
+
+- `dividend` (**Number**) ： 被除数 。
+- `divisor` (**Number**) ： 除数 。
+
+## 返回值
+
+**Boolean** ：`true` 可以整除， `false` 不可以整除。
+
+
+## 源码
+
+```js
+const isDivisible = (dividend, divisor) => dividend % divisor === 0;
+```
+
+## 例子
+
+```js
+import { isDivisible } from '@jiaoxiaoyuan/j-utils'
+const result1 = isDivisible(6,3)
+const result2 = isDivisible(5,3)
+console.log(result1) //=> true
+console.log(result2) //=> false
+```

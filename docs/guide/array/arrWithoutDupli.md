@@ -1,0 +1,42 @@
+
+
+# 删除数组中的重复元素
+
+## 语法
+
+```js
+import { arrWithoutDupli } from '@jiaoxiaoyuan/j-utils';
+const result = arrWithoutDupli(arr);
+```
+
+## 参数
+
+- `arr` (**Array**) ： 要去重的数组。
+
+## 返回值
+
+**Array** ： 返回一个去重后的新数组。
+
+## 源码
+
+```js
+const arrWithoutDupli = (arr) => [...new Set(arr)];
+```
+
+## 例子
+
+```js
+import { arrWithoutDupli } from '@jiaoxiaoyuan/j-utils';
+const fruits = [
+  'apple',
+  'mango',
+  'orange',
+  'apple',
+  'pineapple',
+  'pineapple',
+  'peach',
+  'mango',
+];
+const result = arrWithoutDupli(fruits);
+console.log(result); //=> ['apple', 'mango', 'orange', 'pineapple', 'peach']
+```

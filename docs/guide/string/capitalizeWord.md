@@ -1,0 +1,37 @@
+
+
+# 将字符串中每个单词的首字母转为大写
+
+## 语法
+
+
+```js
+import { capitalizeWord } from '@jiaoxiaoyuan/j-utils'
+const result = capitalizeWord(str)
+```
+
+## 参数
+
+- `str` (**String**) ： 需要将每个单词的首字母转为大写的字符串 。
+
+
+## 返回值
+
+**String** ： 每个单词的首字母转为大写后的字符串。
+
+## 源码
+
+```js
+const capitalizeWord = (string) => string.replace(/\b[a-z]/g, (letter) => letter.toUpperCase());
+```
+
+
+## 例子
+
+
+```js
+import { capitalizeWord } from '@jiaoxiaoyuan/j-utils'
+const initStr = 'hello world , my name is warbler !'
+const finallyStr = capitalizeWord(initStr)
+console.log(finallyStr) //=> Hello World , My Name Is Warbler !
+```

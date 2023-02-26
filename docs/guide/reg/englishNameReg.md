@@ -1,0 +1,40 @@
+
+
+# 英文名字
+
+验证名字，纯 `英文`，允许空格。
+
+## 语法
+
+```js
+import { englishNameReg } from '@jiaoxiaoyuan/j-utils';
+const result = englishNameReg(value);
+```
+
+## 参数
+
+- `value` (**String**) ： 待验证字符串。
+
+## 返回值
+
+**Boolean** ： 是否通过验证，`true` 通过验证， `false` 没有通过验证。
+
+## 源码
+
+```js
+const englishNameReg = (value) => {
+  const reg = /(^[a-zA-Z][a-zA-Z\s]{0,20}[a-zA-Z]$)/;
+  return reg.test(value);
+};
+```
+
+## 例子
+
+```js
+import { englishNameReg } from '@jiaoxiaoyuan/j-utils';
+const result1 = englishNameReg('一尾·流莺')
+const result2 = englishNameReg('warbler')
+
+console.log(result1) // false
+console.log(result2) // true
+```
