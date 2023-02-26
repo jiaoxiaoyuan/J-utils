@@ -49,12 +49,16 @@ npm升级指定版本的包：npm update jtoolset --save
 
 ```bash
 import utils from 'jtoolset'
+或
+import utils from 'jtoolset/lib/jtoolset-min'
 ```
 
 或者
 
 ```bash
 import { 方法名 } from 'jtoolset'
+或
+import { 方法名 } from 'jtoolset/lib/jtoolset-min'
 ```
 
 #### 调用
@@ -67,8 +71,44 @@ utils.方法名
 
 ```bash
 let utils = require('jtoolset')
+或
+let utils = require('jtoolset/lib/jtoolset-min')
 ```
 
 #### 调用
 
 utils.方法名
+
+
+### 2023.02.26 新增
+    arrWithoutDupli,
+    arrObjectWithoutDupli,
+    isAllPass,
+    filterUnique,
+    filterNoUnique,
+    findObjectInArray,
+    minArray,
+    maxArray,
+    arrDifference,
+    arrSimilarity,
+    getDifferenceFrom,
+    countFrequency,
+    countObjFrequency,
+    getAverageBy,
+    getTotal,
+    getTotalBy,
+    arrRemoveEle,
+    arrRemoveFunEle,
+    shuffleArr,
+    isToday,
+    isTomorrow,
+    isYesterday,
+    isScheduled,
+    dayOfYear,
+    getDayDiff,
+    isEvenNumber,
+    isDivisible,
+    getAverage,
+    randomInRange,
+    randomIntegerInRange,
+    browser

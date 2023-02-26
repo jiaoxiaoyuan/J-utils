@@ -84,6 +84,7 @@ import randomIntegerInRange from './modules/number/random/randomIntegerInRange';
 
 // 设备
 import browser from './modules/devide/browser';
+
 const jutils = {
     arrWithoutDupli,
     arrObjectWithoutDupli,
