@@ -7,7 +7,7 @@
 ## 语法
 
 ```js
-import { hmsReg } from '@jiaoxiaoyuan/j-utils';
+import { hmsReg } from 'jtoolset';
 const result = hmsReg(value);
 ```
 
@@ -31,7 +31,7 @@ const hmsReg = (value) => {
 ## 例子
 
 ```js
-import { hmsReg } from '@jiaoxiaoyuan/j-utils';
+import { hmsReg } from 'jtoolset';
 const result1 = hmsReg('09:02:34')
 const result2 = hmsReg('13:41:25')
 

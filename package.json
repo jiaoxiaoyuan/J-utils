@@ -1,8 +1,8 @@
 {
-    "name": "@jiaoxiaoyuan/j-utils",
-    "version": "2.0.3-beta-1.0",
+    "name": "jtoolset",
+    "version": "1.0.1-beta-1.1",
     "description": "前端工具集",
-    "main": "./lib/j-utils.js",
+    "main": "./lib/jtoolset-min",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "dev": "vuepress dev docs --temp .temp",

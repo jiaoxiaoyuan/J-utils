@@ -4,7 +4,7 @@
 ## 语法
 
 ```js
-import { filterUnique } from '@jiaoxiaoyuan/j-utils'
+import { filterUnique } from 'jtoolset'
 const result = filterUnique(arr)
 ```
 
@@ -25,7 +25,7 @@ const filterUnique = (arr) => arr.filter((i) => arr.indexOf(i) !== arr.lastIndex
 ## 例子
 
 ```js
-import { filterUnique } from '@jiaoxiaoyuan/j-utils'
+import { filterUnique } from 'jtoolset'
 const arr = [1,2,2,3,3,4,5,5,6]
 const result = filterUnique(arr)
 console.log(result) //=> [2,2,3,3,5,5]

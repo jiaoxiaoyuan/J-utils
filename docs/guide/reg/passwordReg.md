@@ -7,7 +7,7 @@
 ## 语法
 
 ```js
-import { passwordReg } from '@jiaoxiaoyuan/j-utils';
+import { passwordReg } from 'jtoolset';
 const result = passwordReg(value);
 ```
 
@@ -31,7 +31,7 @@ const passwordReg = (value) => {
 ## 例子
 
 ```js
-import { passwordReg } from '@jiaoxiaoyuan/j-utils';
+import { passwordReg } from 'jtoolset';
 const result1 = passwordReg('asd12312321')
 const result2 = passwordReg('Hzw!dasd15')
 

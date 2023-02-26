@@ -7,7 +7,7 @@
 ## 语法
 
 ```js
-import { integerReg } from '@jiaoxiaoyuan/j-utils';
+import { integerReg } from 'jtoolset';
 const result = integerReg(value);
 ```
 
@@ -31,7 +31,7 @@ const integerReg = (value) => {
 ## 例子
 
 ```js
-import { integerReg } from '@jiaoxiaoyuan/j-utils';
+import { integerReg } from 'jtoolset';
 const result1 = integerReg('0')
 const result2 = integerReg('-3')
 const result3 = integerReg('4')

@@ -6,7 +6,7 @@
 
 
 ```js
-import { getCurrentUrl } from '@jiaoxiaoyuan/j-utils';
+import { getCurrentUrl } from 'jtoolset';
 const result = getCurrentUrl()
 ```
 
@@ -29,7 +29,7 @@ const getCurrentUrl = () => window.location.href;
 
 
 ```js
-import { getCurrentUrl } from '@jiaoxiaoyuan/j-utils';
+import { getCurrentUrl } from 'jtoolset';
 const result = getCurrentUrl()
 console.log(result) //=>http://warblerjs.duwanyu.com
 ```

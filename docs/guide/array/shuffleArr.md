@@ -5,7 +5,7 @@
 ## 语法
 
 ```js
-import { shuffleArr } from '@jiaoxiaoyuan/j-utils'
+import { shuffleArr } from 'jtoolset'
 const result = shuffleArr(arr)
 ```
 
@@ -28,7 +28,7 @@ const shuffleArr = (arr) => arr.sort(() => Math.random() - 0.5);
 
 
 ```js
-import { shuffleArr } from '@jiaoxiaoyuan/j-utils'
+import { shuffleArr } from 'jtoolset'
 const ages = [1,2,3,4,5,6,7,8]
 const result = shuffleArr(ages)
 console.log(result) //=> [1, 7, 2, 3, 8, 4, 5, 6]

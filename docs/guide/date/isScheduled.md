@@ -7,7 +7,7 @@
 
 
 ```js
-import { isScheduled } from '@jiaoxiaoyuan/j-utils'
+import { isScheduled } from 'jtoolset'
 const result = isScheduled(date)
 ```
 
@@ -34,7 +34,7 @@ const isScheduled = (date) => {
 
 
 ```js
-import { isScheduled } from '@jiaoxiaoyuan/j-utils'
+import { isScheduled } from 'jtoolset'
 //测试日期为2021-10-18
 const result1 = isScheduled('2021-10-17 00:00:00')
 const result2 = isScheduled('2021-10-19 00:00:00')

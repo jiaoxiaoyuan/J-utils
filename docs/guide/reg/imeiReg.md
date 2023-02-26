@@ -7,7 +7,7 @@
 ## 语法
 
 ```js
-import { imeiReg } from '@jiaoxiaoyuan/j-utils';
+import { imeiReg } from 'jtoolset';
 const result = imeiReg(value);
 ```
 
@@ -31,7 +31,7 @@ const imeiReg = (value) => {
 ## 例子
 
 ```js
-import { imeiReg } from '@jiaoxiaoyuan/j-utils';
+import { imeiReg } from 'jtoolset';
 const result1 = imeiReg('12345678998765432')
 const result2 = imeiReg('12345678998765432234')
 

@@ -4,7 +4,7 @@
 ## 语法
 
 ```js
-import { arrRemoveObjEle } from '@jiaoxiaoyuan/j-utils'
+import { arrRemoveObjEle } from 'jtoolset'
 const result = arrRemoveObjEle(arr, key, value)
 ```
 
@@ -29,7 +29,7 @@ const arrRemoveObjEle = (arr, key, value) => arr.filter((i) => i[key] !== value)
 
 
 ```js
-import { arrRemoveObjEle } from '@jiaoxiaoyuan/j-utils'
+import { arrRemoveObjEle } from 'jtoolset'
 const fruits = [
   {name: 'Grapes', quantity: 2},
   {name: 'Bananas', quantity: 5},

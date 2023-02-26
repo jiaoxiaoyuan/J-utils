@@ -6,7 +6,7 @@
 ## 语法
 
 ```js
-import { subnetReg } from '@jiaoxiaoyuan/j-utils';
+import { subnetReg } from 'jtoolset';
 const result = subnetReg(value);
 ```
 
@@ -30,7 +30,7 @@ const subnetReg = (value) => {
 ## 例子
 
 ```js
-import { subnetReg } from '@jiaoxiaoyuan/j-utils';
+import { subnetReg } from 'jtoolset';
 const result1 = subnetReg('255.255.255.0')
 const result2 = subnetReg('255.211.0.0')
 

@@ -7,7 +7,7 @@
 ## 语法
 
 ```js
-import { uppercaseReg } from '@jiaoxiaoyuan/j-utils';
+import { uppercaseReg } from 'jtoolset';
 const result = uppercaseReg(value);
 ```
 
@@ -31,7 +31,7 @@ const uppercaseReg = (value) => {
 ## 例子
 
 ```js
-import { uppercaseReg } from '@jiaoxiaoyuan/j-utils';
+import { uppercaseReg } from 'jtoolset';
 const result1 = uppercaseReg('WARBLER')
 const result2 = uppercaseReg('Warbler')
 

@@ -7,7 +7,7 @@
 ## 语法
 
 ```js
-import { idMacaoReg } from '@jiaoxiaoyuan/j-utils';
+import { idMacaoReg } from 'jtoolset';
 const result = idMacaoReg(value);
 ```
 
@@ -31,7 +31,7 @@ const idMacaoReg = (value) => {
 ## 例子
 
 ```js
-import { idMacaoReg } from '@jiaoxiaoyuan/j-utils';
+import { idMacaoReg } from 'jtoolset';
 const result1 = idMacaoReg('5686611(1)')
 
 console.log(result1) // true

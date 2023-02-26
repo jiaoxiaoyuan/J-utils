@@ -7,7 +7,7 @@
 ## 语法
 
 ```js
-import { idTaiwanReg } from '@jiaoxiaoyuan/j-utils';
+import { idTaiwanReg } from 'jtoolset';
 const result = idTaiwanReg(value);
 ```
 
@@ -31,7 +31,7 @@ const idTaiwanReg = (value) => {
 ## 例子
 
 ```js
-import { idTaiwanReg } from '@jiaoxiaoyuan/j-utils';
+import { idTaiwanReg } from 'jtoolset';
 const result1 = idTaiwanReg('U193683453')
 
 console.log(result1) // true

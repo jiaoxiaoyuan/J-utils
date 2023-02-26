@@ -5,7 +5,7 @@
 ## 语法
 
 ```js
-import { getAverage } from '@jiaoxiaoyuan/j-utils';
+import { getAverage } from 'jtoolset';
 const result = getAverage(...args);
 ```
 
@@ -26,7 +26,7 @@ const getAverage = (...args) => args.reduce((a, b) => a + b) / args.length;
 ## 例子
 
 ```js
-import { getAverage } from '@jiaoxiaoyuan/j-utils';
+import { getAverage } from 'jtoolset';
 const result1 = getAverage(1, 2, 3, 4);
 const result2 = getAverage(1, 2, 3, 4, 5, 6, 7, 8);
 console.log(result1); //=> 2.5

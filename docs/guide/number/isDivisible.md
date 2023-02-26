@@ -4,7 +4,7 @@
 ## 语法
 
 ```js
-import { isDivisible } from '@jiaoxiaoyuan/j-utils'
+import { isDivisible } from 'jtoolset'
 const result1 = isDivisible(dividend, divisor)
 ```
 
@@ -27,7 +27,7 @@ const isDivisible = (dividend, divisor) => dividend % divisor === 0;
 ## 例子
 
 ```js
-import { isDivisible } from '@jiaoxiaoyuan/j-utils'
+import { isDivisible } from 'jtoolset'
 const result1 = isDivisible(6,3)
 const result2 = isDivisible(5,3)
 console.log(result1) //=> true

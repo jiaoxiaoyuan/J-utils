@@ -7,7 +7,7 @@
 ## 语法
 
 ```js
-import { easyTelReg } from '@jiaoxiaoyuan/j-utils';
+import { easyTelReg } from 'jtoolset';
 const result = easyTelReg(value);
 ```
 
@@ -31,7 +31,7 @@ const easyTelReg = (value) => {
 ## 例子
 
 ```js
-import { easyTelReg } from '@jiaoxiaoyuan/j-utils';
+import { easyTelReg } from 'jtoolset';
 const result1 = easyTelReg('008617612340174')
 const result2 = easyTelReg('+8617612340174')
 const result3 = easyTelReg('17612340174')

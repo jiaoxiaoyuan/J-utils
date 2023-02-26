@@ -5,7 +5,7 @@
 
 
 ```js
-import { getDayDiff } from '@jiaoxiaoyuan/j-utils'
+import { getDayDiff } from 'jtoolset'
 const result = getDayDiff(date1, date2, unit)
 ```
 
@@ -47,7 +47,7 @@ const getDayDiff = (date1, date2, unit) => {
 
 
 ```js
-import { getDayDiff } from '@jiaoxiaoyuan/j-utils'
+import { getDayDiff } from 'jtoolset'
 // 以天为单位
 const result1 = getDayDiff("2021,9,15",'2021,9,16','day')
 // 以小时为单位

@@ -5,7 +5,7 @@
 
 
 ```js
-import { isToday } from '@jiaoxiaoyuan/j-utils'
+import { isToday } from 'jtoolset'
 const result = isToday(date)
 ```
 
@@ -35,7 +35,7 @@ const isToday = (date) => {
 
 
 ```js
-import { isToday } from '@jiaoxiaoyuan/j-utils'
+import { isToday } from 'jtoolset'
 //测试日期为2021-09-26
 const result1 = isToday(new Date())
 const result2 = isToday("1998-03-09")

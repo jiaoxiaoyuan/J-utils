@@ -7,7 +7,7 @@
 ## 语法
 
 ```js
-import { nlReg } from '@jiaoxiaoyuan/j-utils';
+import { nlReg } from 'jtoolset';
 const result = nlReg(value);
 ```
 
@@ -31,7 +31,7 @@ const nlReg = (value) => {
 ## 例子
 
 ```js
-import { nlReg } from '@jiaoxiaoyuan/j-utils';
+import { nlReg } from 'jtoolset';
 const result1 = nlReg('1')
 const result2 = nlReg('aa')
 const result3 = nlReg('3aa')

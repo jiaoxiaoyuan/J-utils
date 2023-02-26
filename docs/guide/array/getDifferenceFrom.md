@@ -4,7 +4,7 @@
 ## 语法
 
 ```js
-import { getDifferenceFrom } from '@jiaoxiaoyuan/j-utils'
+import { getDifferenceFrom } from 'jtoolset'
 const result = getDifferenceFrom(arr1, arr2)
 ```
 
@@ -32,7 +32,7 @@ const getDifferenceFrom = (arr1, arr2) => {
 
 
 ```js
-import { getDifferenceFrom } from '@jiaoxiaoyuan/j-utils'
+import { getDifferenceFrom } from 'jtoolset'
 const arr1 = [1,2,4,5,8]
 const arr2 = [2,3,5,8,9]
 const result = getDifferenceFrom(arr1,arr2)

@@ -6,7 +6,7 @@
 ## 语法
 
 ```js
-import { arrRemoveEle } from '@jiaoxiaoyuan/j-utils'
+import { arrRemoveEle } from 'jtoolset'
 const result = arrRemoveEle(arr, el)
 ```
 
@@ -31,7 +31,7 @@ const arrRemoveEle = (arr, el) => arr.filter((i) => i !== el);
 
 
 ```js
-import { arrRemoveEle } from '@jiaoxiaoyuan/j-utils'
+import { arrRemoveEle } from 'jtoolset'
 const ages = [1,2,3,4,5,6,7,8]
 const names = ['张三','李四','王二麻子','一尾流莺']
 const result1 = arrRemoveEle(ages,3)

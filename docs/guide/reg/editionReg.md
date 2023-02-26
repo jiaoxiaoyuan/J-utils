@@ -7,7 +7,7 @@
 ## 语法
 
 ```js
-import { editionReg } from '@jiaoxiaoyuan/j-utils';
+import { editionReg } from 'jtoolset';
 const result = editionReg(value);
 ```
 
@@ -31,7 +31,7 @@ const editionReg = (value) => {
 ## 例子
 
 ```js
-import { editionReg } from '@jiaoxiaoyuan/j-utils';
+import { editionReg } from 'jtoolset';
 const result1 = editionReg('1.0.1')
 const result2 = editionReg('13.4')
 

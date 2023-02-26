@@ -7,7 +7,7 @@
 ## 语法
 
 ```js
-import { newCarsReg } from '@jiaoxiaoyuan/j-utils';
+import { newCarsReg } from 'jtoolset';
 const result = newCarsReg(value);
 ```
 
@@ -31,7 +31,7 @@ const newCarsReg = (value) => {
 ## 例子
 
 ```js
-import { newCarsReg } from '@jiaoxiaoyuan/j-utils';
+import { newCarsReg } from 'jtoolset';
 const result1 = newCarsReg('京AD80234')
 const result2 = newCarsReg('辽D46234F')
 

@@ -7,7 +7,7 @@
 ## 语法
 
 ```js
-import { achievementReg } from '@jiaoxiaoyuan/j-utils';
+import { achievementReg } from 'jtoolset';
 const result = achievementReg(value);
 ```
 
@@ -31,7 +31,7 @@ const achievementReg = (value) => {
 ## 例子
 
 ```js
-import { achievementReg } from '@jiaoxiaoyuan/j-utils';
+import { achievementReg } from 'jtoolset';
 const result1 = achievementReg('0')
 const result2 = achievementReg('140')
 const result3 = achievementReg('145.5')

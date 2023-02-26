@@ -4,7 +4,7 @@
 ## 语法
 
 ```js
-import { alphabetical } from '@jiaoxiaoyuan/j-utils'
+import { alphabetical } from 'jtoolset'
 const result = alphabetical(str)
 ```
 
@@ -26,7 +26,7 @@ const alphabetical = (str) => str.split('').sort((a, b) => a.localeCompare(b)).j
 ## 例子
 
 ```js
-import { alphabetical } from '@jiaoxiaoyuan/j-utils'
+import { alphabetical } from 'jtoolset'
 const initStr = 'adaskjdhaskjdhjkgrjheg'
 const result = alphabetical(initStr)
 console.log(result) //=> aaadddegghhhjjjjkkkrss

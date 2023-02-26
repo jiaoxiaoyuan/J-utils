@@ -7,7 +7,7 @@
 ## 语法
 
 ```js
-import { passportReg } from '@jiaoxiaoyuan/j-utils';
+import { passportReg } from 'jtoolset';
 const result = passportReg(value);
 ```
 
@@ -31,7 +31,7 @@ const passportReg = (value) => {
 ## 例子
 
 ```js
-import { passportReg } from '@jiaoxiaoyuan/j-utils';
+import { passportReg } from 'jtoolset';
 const result1 = passportReg('s28233515')
 const result2 = passportReg('MA1234567')
 

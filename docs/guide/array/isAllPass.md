@@ -5,7 +5,7 @@
 ## 语法
 
 ```js
-import { isAllPass } from '@jiaoxiaoyuan/j-utils'
+import { isAllPass } from 'jtoolset'
 const result = isAllPass(arr, fn)
 ```
 
@@ -30,7 +30,7 @@ const isAllPass = (arr, fn) => arr.every(fn);
 
 
 ```js
-import { isAllPass } from '@jiaoxiaoyuan/j-utils'
+import { isAllPass } from 'jtoolset'
 const ages = [30, 24, 28, 32];
 const result1 = isAllPass(ages, (item) => item < 40);
 const result2 = isAllPass(ages, (item) => item > 30);

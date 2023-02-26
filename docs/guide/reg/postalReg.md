@@ -7,7 +7,7 @@
 ## 语法
 
 ```js
-import { postalReg } from '@jiaoxiaoyuan/j-utils';
+import { postalReg } from 'jtoolset';
 const result = postalReg(value);
 ```
 
@@ -31,7 +31,7 @@ const postalReg = (value) => {
 ## 例子
 
 ```js
-import { postalReg } from '@jiaoxiaoyuan/j-utils';
+import { postalReg } from 'jtoolset';
 const result1 = postalReg('734500')
 
 console.log(result1) // true

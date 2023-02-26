@@ -5,7 +5,7 @@
 
 
 ```js
-import { scrollToTop } from '@jiaoxiaoyuan/j-utils';
+import { scrollToTop } from 'jtoolset';
 scrollToTop()
 ```
 
@@ -34,6 +34,6 @@ const scrollToTop = () => {
 
 
 ```js
-import { scrollToTop } from '@jiaoxiaoyuan/j-utils';
+import { scrollToTop } from 'jtoolset';
 scrollToTop()
 ```

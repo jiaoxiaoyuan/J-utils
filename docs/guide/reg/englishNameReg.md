@@ -7,7 +7,7 @@
 ## 语法
 
 ```js
-import { englishNameReg } from '@jiaoxiaoyuan/j-utils';
+import { englishNameReg } from 'jtoolset';
 const result = englishNameReg(value);
 ```
 
@@ -31,7 +31,7 @@ const englishNameReg = (value) => {
 ## 例子
 
 ```js
-import { englishNameReg } from '@jiaoxiaoyuan/j-utils';
+import { englishNameReg } from 'jtoolset';
 const result1 = englishNameReg('一尾·流莺')
 const result2 = englishNameReg('warbler')
 

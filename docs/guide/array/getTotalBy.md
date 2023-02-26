@@ -5,7 +5,7 @@
 ## 语法
 
 ```js
-import { getTotalBy } from '@jiaoxiaoyuan/j-utils'
+import { getTotalBy } from 'jtoolset'
 const result = getTotalBy(arr, key)
 ```
 
@@ -27,7 +27,7 @@ const getTotalBy = (arr, key) => arr.reduce((pre, cur) => pre + cur[key], 0);
 ## 例子
 
 ```js
-import { getTotalBy } from '@jiaoxiaoyuan/j-utils'
+import { getTotalBy } from 'jtoolset'
 const fruits = [
   {name: 'Grapes', quantity: 2},
   {name: 'Bananas', quantity: 5},

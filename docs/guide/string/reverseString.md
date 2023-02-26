@@ -5,7 +5,7 @@
 ## 语法
 
 ```js
-import { reverseString } from '@jiaoxiaoyuan/j-utils';
+import { reverseString } from 'jtoolset';
 const result = reverseString(str);
 ```
 
@@ -26,7 +26,7 @@ const reverseString = (str) => str.split('').reverse().join('');
 ## 例子
 
 ```js
-import { reverseString } from '@jiaoxiaoyuan/j-utils';
+import { reverseString } from 'jtoolset';
 const initStr = 'hello,world';
 const finallyStr = reverseString(initStr);
 console.log(finallyStr); //=> dlrow,olleh

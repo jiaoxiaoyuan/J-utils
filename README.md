@@ -1,42 +1,38 @@
-# j-utils
+# jtoolset
+
 
 这是一个web端常用的js工具方法函数库
 
-## 仓库
-
-> github <https://github.com/jiaoxiaoyuan/J-utils>
->
-> gitee <https://gitee.com/jiaoxiaoyuan_admin/J-utils>
 
 ## 安装
 
 ### npm
 
 ```bash
- npm install @jiaoxiaoyuan/j-utils --save
+ npm i jtoolset --save
 ```
 
 ### yarn
 
 ```bash
-yarn add @jiaoxiaoyuan/j-utils --save
+yarn add jtoolset --save
 ```
 
 ### pnpm
 
 ```bash
-pnpm install @jiaoxiaoyuan/j-utils --save
+pnpm install jtoolset --save
 ```
 
 ## 升级版本
 
-npm安装指定版本: npm i @jiaoxiaoyuan/j-utils@1.0.3 --save
+npm安装指定版本: npm i jtoolset@1.0.3 --save
 
-npm升级指定版本的包：npm update @jiaoxiaoyuan/j-utils --save
+npm升级指定版本的包：npm update jtoolset --save
 
-最新版本的包：npm i @jiaoxiaoyuan/j-utils@latest --save
+最新版本的包：npm i jtoolset --save
 
-使⽤npm查看包的版本信息：npm list @jiaoxiaoyuan/j-utils
+使⽤npm查看包的版本信息：npm list jtoolset
 
 ## 使用
 
@@ -47,13 +43,13 @@ npm升级指定版本的包：npm update @jiaoxiaoyuan/j-utils --save
 #### 引入
 
 ```bash
-import utils from '@jiaoxiaoyuan/j-utils'
+import utils from 'jtoolset'
 ```
 
 或者
 
 ```bash
-import { 方法名 } from '@jiaoxiaoyuan/j-utils'
+import { 方法名 } from 'jtoolset'
 ```
 
 #### 调用
@@ -65,7 +61,7 @@ utils.方法名
 #### 引入
 
 ```bash
-let utils = require('@jiaoxiaoyuan/j-utils')
+let utils = require('jtoolset')
 ```
 
 #### 调用

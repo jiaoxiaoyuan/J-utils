@@ -7,7 +7,7 @@
 ## 语法
 
 ```js
-import { trainReg } from '@jiaoxiaoyuan/j-utils';
+import { trainReg } from 'jtoolset';
 const result = trainReg(value);
 ```
 
@@ -31,7 +31,7 @@ const trainReg = (value) => {
 ## 例子
 
 ```js
-import { trainReg } from '@jiaoxiaoyuan/j-utils';
+import { trainReg } from 'jtoolset';
 const result1 = trainReg('G1234')
 const result2 = trainReg('A18')
 

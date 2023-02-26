@@ -7,7 +7,7 @@
 ## 语法
 
 ```js
-import { videoUrlReg } from '@jiaoxiaoyuan/j-utils';
+import { videoUrlReg } from 'jtoolset';
 const result = videoUrlReg(value);
 ```
 
@@ -31,7 +31,7 @@ const videoUrlReg = (value) => {
 ## 例子
 
 ```js
-import { videoUrlReg } from '@jiaoxiaoyuan/j-utils';
+import { videoUrlReg } from 'jtoolset';
 const result1 = videoUrlReg('http://warbler.duwanyu.com/wc.mp4')
 const result2 = videoUrlReg('https://warbler.duwanyu.com/wc.mp4')
 const result3 = videoUrlReg('warbler.duwanyu.com/wc.mp4')

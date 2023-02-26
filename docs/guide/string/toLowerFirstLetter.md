@@ -6,7 +6,7 @@
 
 
 ```js
-import { toLowerFirstLetter } from '@jiaoxiaoyuan/j-utils'
+import { toLowerFirstLetter } from 'jtoolset'
 const result = toLowerFirstLetter(str)
 ```
 
@@ -27,7 +27,7 @@ const toLowerFirstLetter = ([first, ...rest]) => first.toLowerCase() + rest.join
 ## 例子
 
 ```js
-import { toLowerFirstLetter } from '@jiaoxiaoyuan/j-utils'
+import { toLowerFirstLetter } from 'jtoolset'
 const initStr = 'Hello,world'
 const finallyStr = toLowerFirstLetter(initStr)
 console.log(finallyStr) //=> 'hello,world'

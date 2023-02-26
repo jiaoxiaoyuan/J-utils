@@ -5,7 +5,7 @@
 
 
 ```js
-import { dayOfYear } from '@jiaoxiaoyuan/j-utils'
+import { dayOfYear } from 'jtoolset'
 const result = dayOfYear(date)
 ```
 
@@ -32,7 +32,7 @@ const dayOfYear = (date) => {
 
 
 ```js
-import { dayOfYear } from '@jiaoxiaoyuan/j-utils'
+import { dayOfYear } from 'jtoolset'
 const result1 = dayOfYear()
 const result2 = dayOfYear("2021,9,15")
 const result3 = dayOfYear("2021-9-16")

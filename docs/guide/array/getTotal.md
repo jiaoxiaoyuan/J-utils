@@ -5,7 +5,7 @@
 ## 语法
 
 ```js
-import { getTotal } from '@jiaoxiaoyuan/j-utils'
+import { getTotal } from 'jtoolset'
 const result = getTotal(arr)
 ```
 
@@ -26,7 +26,7 @@ const getTotal = (arr) => arr.reduce((pre, cur) => pre + cur, 0);
 ## 例子
 
 ```js
-import { getTotal } from '@jiaoxiaoyuan/j-utils'
+import { getTotal } from 'jtoolset'
 const ages = [1,3,5,7,8]
 const result = getTotal(ages)
 console.log(result) //=> 24

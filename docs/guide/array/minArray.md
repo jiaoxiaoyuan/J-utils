@@ -4,7 +4,7 @@
 ## 语法
 
 ```js
-import { minArray } from '@jiaoxiaoyuan/j-utils'
+import { minArray } from 'jtoolset'
 const result = minArray(arr, n)
 ```
 
@@ -26,7 +26,7 @@ const minArray = (arr, n = 1) => [...arr].sort((a, b) => a - b).slice(0, n);
 ## 例子
 
 ```js
-import { minArray } from '@jiaoxiaoyuan/j-utils'
+import { minArray } from 'jtoolset'
 const ages = [10, 2, 5, 8, 100, 500, 3, 30, 9];
 const result1 = minArray(ages)
 const result2 = minArray(ages,3)

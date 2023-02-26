@@ -7,7 +7,7 @@
 ## 语法
 
 ```js
-import { colorReg } from '@jiaoxiaoyuan/j-utils';
+import { colorReg } from 'jtoolset';
 const result = colorReg(value);
 ```
 
@@ -31,7 +31,7 @@ const colorReg = (value) => {
 ## 例子
 
 ```js
-import { colorReg } from '@jiaoxiaoyuan/j-utils';
+import { colorReg } from 'jtoolset';
 const result1 = colorReg('#fff')
 const result2 = colorReg('#000000')
 

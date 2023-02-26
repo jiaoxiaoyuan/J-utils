@@ -7,7 +7,7 @@
 ## 语法
 
 ```js
-import { ncReg } from '@jiaoxiaoyuan/j-utils';
+import { ncReg } from 'jtoolset';
 const result = ncReg(value);
 ```
 
@@ -31,7 +31,7 @@ const ncReg = (value) => {
 ## 例子
 
 ```js
-import { ncReg } from '@jiaoxiaoyuan/j-utils';
+import { ncReg } from 'jtoolset';
 const result1 = ncReg('1')
 const result2 = ncReg('韩')
 const result3 = ncReg('韩1')

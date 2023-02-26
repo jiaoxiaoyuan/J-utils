@@ -5,7 +5,7 @@
 ## 语法
 
 ```js
-import { findObjectInArray } from '@jiaoxiaoyuan/j-utils';
+import { findObjectInArray } from 'jtoolset';
 const result = findObjectInArray(arr, key, value);
 ```
 
@@ -28,7 +28,7 @@ const findObjectInArray = (arr, key, value) => arr.find((obj) => obj[key] === va
 ## 例子
 
 ```js
-import { findObjectInArray } from '@jiaoxiaoyuan/j-utils';
+import { findObjectInArray } from 'jtoolset';
 const fruits = [
   { name: 'Bananas', quantity: 5 },
   { name: 'Apples', quantity: 10 },

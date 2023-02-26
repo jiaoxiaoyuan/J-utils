@@ -4,7 +4,7 @@
 ## 语法
 
 ```js
-import { countFrequency } from '@jiaoxiaoyuan/j-utils'
+import { countFrequency } from 'jtoolset'
 const result = countFrequency(arr, value)
 ```
 
@@ -26,7 +26,7 @@ const countFrequency = (arr, value) => arr.reduce((pre, cur) => (cur === value ?
 ## 例子
 
 ```js
-import { countFrequency } from '@jiaoxiaoyuan/j-utils'
+import { countFrequency } from 'jtoolset'
 const fruits = [
   'apple',
   'mango',

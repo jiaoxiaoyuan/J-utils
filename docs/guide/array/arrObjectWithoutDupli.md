@@ -4,7 +4,7 @@
 ## 语法
 
 ```js
-import { arrObjectWithoutDupli } from '@jiaoxiaoyuan/j-utils';
+import { arrObjectWithoutDupli } from 'jtoolset';
 const result = arrObjectWithoutDupli(arr，key)
 ```
 
@@ -33,7 +33,7 @@ const arrObjectWithoutDupli = (arr, key) =>
 ## 例子
 
 ```js
-import { arrObjectWithoutDupli } from '@jiaoxiaoyuan/j-utils';
+import { arrObjectWithoutDupli } from 'jtoolset';
 const fruits = [
   { name: 'Grapes', quantity: 2 },
   { name: 'Bananas', quantity: 5 },

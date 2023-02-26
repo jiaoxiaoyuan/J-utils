@@ -7,7 +7,7 @@
 ## 语法
 
 ```js
-import { imgUrlReg } from '@jiaoxiaoyuan/j-utils';
+import { imgUrlReg } from 'jtoolset';
 const result = imgUrlReg(value);
 ```
 
@@ -31,7 +31,7 @@ const imgUrlReg = (value) => {
 ## 例子
 
 ```js
-import { imgUrlReg } from '@jiaoxiaoyuan/j-utils';
+import { imgUrlReg } from 'jtoolset';
 const result1 = imgUrlReg('http://warbler.duwanyu.com/wc.png')
 const result2 = imgUrlReg('https://warbler.duwanyu.com/wc.png')
 const result3 = imgUrlReg('warbler.duwanyu.com/wc.png')

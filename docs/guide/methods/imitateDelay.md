@@ -4,7 +4,7 @@
 ## 语法
 
 ```js
-import { imitateDelay } from '@jiaoxiaoyuan/j-utils';
+import { imitateDelay } from 'jtoolset';
 imitateDelay(timeout);
 ```
 
@@ -31,7 +31,7 @@ const imitateDelay = (timeout) =>
 ## 例子
 
 ```js
-import { imitateDelay } from '@jiaoxiaoyuan/j-utils';
+import { imitateDelay } from 'jtoolset';
 async function test() {
   console.log('The first log');
   await imitateDelay(1000);

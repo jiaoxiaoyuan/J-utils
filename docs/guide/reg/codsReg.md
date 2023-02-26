@@ -7,7 +7,7 @@
 ## 语法
 
 ```js
-import { codsReg } from '@jiaoxiaoyuan/j-utils';
+import { codsReg } from 'jtoolset';
 const result = codsReg(value);
 ```
 
@@ -31,7 +31,7 @@ const codsReg = (value) => {
 ## 例子
 
 ```js
-import { codsReg } from '@jiaoxiaoyuan/j-utils';
+import { codsReg } from 'jtoolset';
 const result1 = codsReg('9134052155323005XL')
 const result2 = codsReg('91330526MA345BR13A')
 

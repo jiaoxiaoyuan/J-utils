@@ -2,7 +2,7 @@
 ## 语法
 
 ```js
-import { browser } from '@jiaoxiaoyuan/j-utils'
+import { browser } from 'jtoolset'
 const result = browser()
 ```
 ## 描述

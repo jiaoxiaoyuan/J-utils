@@ -5,7 +5,7 @@
 ## 语法
 
 ```js
-import { isEvenNumber } from '@jiaoxiaoyuan/j-utils';
+import { isEvenNumber } from 'jtoolset';
 const result = isEvenNumber(num);
 ```
 
@@ -26,7 +26,7 @@ const isEvenNumber = (num) => num % 2 === 0;
 ## 例子
 
 ```js
-import { isEvenNumber } from '@jiaoxiaoyuan/j-utils';
+import { isEvenNumber } from 'jtoolset';
 const result1 = isEvenNumber(4);
 const result2 = isEvenNumber(5);
 console.log(result1); //=> true

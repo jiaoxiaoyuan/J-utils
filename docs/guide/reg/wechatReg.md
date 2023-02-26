@@ -7,7 +7,7 @@
 ## 语法
 
 ```js
-import { wechatReg } from '@jiaoxiaoyuan/j-utils';
+import { wechatReg } from 'jtoolset';
 const result = wechatReg(value);
 ```
 
@@ -31,7 +31,7 @@ const wechatReg = (value) => {
 ## 例子
 
 ```js
-import { wechatReg } from '@jiaoxiaoyuan/j-utils';
+import { wechatReg } from 'jtoolset';
 const result1 = wechatReg('duwanyu515')
 const result2 = wechatReg('warbler_js')
 

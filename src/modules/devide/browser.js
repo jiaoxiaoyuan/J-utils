@@ -26,6 +26,6 @@ const browser = () => {
 export default browser;
 
 /** 用法
- *   import { browser } from '@jiaoxiaoyuan/j-utils'
+ *   import { browser } from 'jtoolset'
  *   console.log(browser())
  */

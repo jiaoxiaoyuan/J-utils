@@ -5,7 +5,7 @@
 ## 语法
 
 ```js
-import { getAverageBy } from '@jiaoxiaoyuan/j-utils'
+import { getAverageBy } from 'jtoolset'
 const result = getAverageBy(arr, key)
 ```
 
@@ -30,7 +30,7 @@ const getAverageBy = (arr, key) => arr.reduce((pre, cur) => pre + cur[key], 0) /
 
 
 ```js
-import { getAverageBy } from '@jiaoxiaoyuan/j-utils'
+import { getAverageBy } from 'jtoolset'
 const fruits = [
     {name: 'Grapes', quantity: 2},
     {name: 'Bananas', quantity: 5},

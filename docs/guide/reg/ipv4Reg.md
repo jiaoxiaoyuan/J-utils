@@ -6,7 +6,7 @@
 ## 语法
 
 ```js
-import { ipv4Reg } from '@jiaoxiaoyuan/j-utils';
+import { ipv4Reg } from 'jtoolset';
 const result = ipv4Reg(value);
 ```
 
@@ -30,7 +30,7 @@ const ipv4Reg = (value) => {
 ## 例子
 
 ```js
-import { ipv4Reg } from '@jiaoxiaoyuan/j-utils';
+import { ipv4Reg } from 'jtoolset';
 const result1 = ipv4Reg('127.16.0.0')
 const result2 = ipv4Reg('127.0.0.1:8080')
 

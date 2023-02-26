@@ -6,7 +6,7 @@
 ## 语法
 
 ```js
-import { complexTelReg } from '@jiaoxiaoyuan/j-utils';
+import { complexTelReg } from 'jtoolset';
 const result = complexTelReg(value);
 ```
 
@@ -30,7 +30,7 @@ const complexTelReg = (value) => {
 ## 例子
 
 ```js
-import { complexTelReg } from '@jiaoxiaoyuan/j-utils';
+import { complexTelReg } from 'jtoolset';
 const result1 = complexTelReg('008617612340174')
 const result2 = complexTelReg('+8617612340174')
 const result3 = complexTelReg('19912340174')

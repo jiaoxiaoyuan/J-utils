@@ -3,7 +3,7 @@
 ## 语法
 
 ```js
-import { arrRemoveFunEle } from '@jiaoxiaoyuan/j-utils'
+import { arrRemoveFunEle } from 'jtoolset'
 const result = arrRemoveFunEle(arr, name)
 ```
 
@@ -28,7 +28,7 @@ const arrRemoveFunEle = (arr, name) => arr.filter((i) => i.name !== name);
 
 
 ```js
-import { arrRemoveFunEle } from '@jiaoxiaoyuan/j-utils'
+import { arrRemoveFunEle } from 'jtoolset'
 const fn1 = ()=>1;
 const fn2 = ()=>2;
 const fn3 = ()=>3;

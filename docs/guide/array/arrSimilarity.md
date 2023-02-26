@@ -5,7 +5,7 @@
 ## 语法
 
 ```js
-import { arrSimilarity } from '@jiaoxiaoyuan/j-utils'
+import { arrSimilarity } from 'jtoolset'
 const result = arrSimilarity(arr1, arr2)
 ```
 
@@ -30,7 +30,7 @@ const arrSimilarity = (arr1, arr2) => arr1.filter((v) => arr2.includes(v));
 
 
 ```js
-import { arrSimilarity } from '@jiaoxiaoyuan/j-utils'
+import { arrSimilarity } from 'jtoolset'
 const arr1 = [1,2,4,5,8]
 const arr2 = [2,3,5,8,9]
 const result = arrSimilarity(arr1,arr2)

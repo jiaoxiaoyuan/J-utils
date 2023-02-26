@@ -5,7 +5,7 @@
 ## 语法
 
 ```js
-import { maxArray } from '@jiaoxiaoyuan/j-utils'
+import { maxArray } from 'jtoolset'
 const result = maxArray(arr, n)
 ```
 
@@ -27,7 +27,7 @@ const maxArray = (arr, n = 1) => [...arr].sort((a, b) => b - a).slice(0, n);
 ## 例子
 
 ```js
-import { maxArray } from '@jiaoxiaoyuan/j-utils'
+import { maxArray } from 'jtoolset'
 const ages = [10, 2, 5, 8, 100, 500, 3, 30, 9];
 const result1 = maxArray(ages)
 const result2 = maxArray(ages,3)

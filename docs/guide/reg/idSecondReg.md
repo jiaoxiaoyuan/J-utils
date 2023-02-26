@@ -7,7 +7,7 @@
 ## 语法
 
 ```js
-import { idSecondReg } from '@jiaoxiaoyuan/j-utils';
+import { idSecondReg } from 'jtoolset';
 const result = idSecondReg(value);
 ```
 
@@ -31,7 +31,7 @@ const idSecondReg = (value) => {
 ## 例子
 
 ```js
-import { idSecondReg } from '@jiaoxiaoyuan/j-utils';
+import { idSecondReg } from 'jtoolset';
 const result1 = idSecondReg('150404199803095215')
 const result2 = idSecondReg('15040419980309521x')
 

@@ -5,7 +5,7 @@
 ## 语法
 
 ```js
-import { loadScript } from '@jiaoxiaoyuan/j-utils';
+import { loadScript } from 'jtoolset';
 loadScript('https://cdn.bootcdn.net/ajax/libs/vConsole/3.7.0/vconsole.min.js')
 ```
 
@@ -37,7 +37,7 @@ const loadScript = (src) => new Promise((resolve) => {
 
 
 ```js
-import { loadScript } from '@jiaoxiaoyuan/j-utils';
+import { loadScript } from 'jtoolset';
 const loadVConsole = async () => {
   await loadScript('https://cdn.bootcdn.net/ajax/libs/vConsole/3.7.0/vconsole.min.js');
 };

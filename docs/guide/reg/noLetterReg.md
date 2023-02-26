@@ -7,7 +7,7 @@
 ## 语法
 
 ```js
-import { noLetterReg } from '@jiaoxiaoyuan/j-utils';
+import { noLetterReg } from 'jtoolset';
 const result = noLetterReg(value);
 ```
 
@@ -31,7 +31,7 @@ const noLetterReg = (value) => {
 ## 例子
 
 ```js
-import { noLetterReg } from '@jiaoxiaoyuan/j-utils';
+import { noLetterReg } from 'jtoolset';
 const result1 = noLetterReg('一尾流莺1!@#')
 const result2 = noLetterReg('a')
 

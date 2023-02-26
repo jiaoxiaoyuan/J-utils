@@ -7,7 +7,7 @@
 ## 语法
 
 ```js
-import { strictCodsReg } from '@jiaoxiaoyuan/j-utils';
+import { strictCodsReg } from 'jtoolset';
 const result = strictCodsReg(value);
 ```
 
@@ -31,7 +31,7 @@ const strictCodsReg = (value) => {
 ## 例子
 
 ```js
-import { strictCodsReg } from '@jiaoxiaoyuan/j-utils';
+import { strictCodsReg } from 'jtoolset';
 const result1 = strictCodsReg('9134052155323005XL')
 const result2 = strictCodsReg('91330526MA345BR13A')
 

@@ -3,7 +3,7 @@
 #### 引入
 
 ```bash
-import utils from '@jiaoxiaoyuan/j-utils'
+import utils from 'jtoolset'
 ```
 
 
@@ -16,7 +16,7 @@ utils.方法名
 #### 引入
 
 ```bash
-let utils = require('@jiaoxiaoyuan/j-utils')
+let utils = require('jtoolset')
 ```
 
 #### 调用

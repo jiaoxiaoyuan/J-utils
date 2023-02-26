@@ -7,7 +7,7 @@
 ## 语法
 
 ```js
-import { baseReg } from '@jiaoxiaoyuan/j-utils';
+import { baseReg } from 'jtoolset';
 const result = baseReg(value);
 ```
 
@@ -31,7 +31,7 @@ const baseReg = (value) => {
 ## 例子
 
 ```js
-import { baseReg } from '@jiaoxiaoyuan/j-utils';
+import { baseReg } from 'jtoolset';
 const result1 = baseReg('data:image/gif;base64,xxxx==')
 const result2 = baseReg('data:image/gif;base63,xxxx==')
 

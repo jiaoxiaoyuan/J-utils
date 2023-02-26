@@ -5,7 +5,7 @@
 
 
 ```js
-import { isTomorrow } from '@jiaoxiaoyuan/j-utils'
+import { isTomorrow } from 'jtoolset'
 const result = isTomorrow(date, n)
 ```
 
@@ -35,7 +35,7 @@ const isTomorrow = (date,  n = 1) => {
 
 
 ```js
-import { isTomorrow } from '@jiaoxiaoyuan/j-utils'
+import { isTomorrow } from 'jtoolset'
 // 测试日期为2021-09-26
 const result1 = isTomorrow(new Date())
 const result2 = isTomorrow("2021-09-27",1)

@@ -7,7 +7,7 @@
 ## 语法
 
 ```js
-import { moneyReg } from '@jiaoxiaoyuan/j-utils';
+import { moneyReg } from 'jtoolset';
 const result = moneyReg(value);
 ```
 
@@ -31,7 +31,7 @@ const moneyReg = (value) => {
 ## 例子
 
 ```js
-import { moneyReg } from '@jiaoxiaoyuan/j-utils';
+import { moneyReg } from 'jtoolset';
   const result1 = moneyReg('500')
   const result2 = moneyReg('-3')
   const result3 = moneyReg('3.99')

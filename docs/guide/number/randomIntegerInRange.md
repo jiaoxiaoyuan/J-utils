@@ -4,7 +4,7 @@
 ## 语法
 
 ```js
-import { randomIntegerInRange } from '@jiaoxiaoyuan/j-utils'
+import { randomIntegerInRange } from 'jtoolset'
 const result1 = randomIntegerInRange(min, max)
 ```
 
@@ -27,7 +27,7 @@ const randomIntegerInRange = (min, max) => Math.floor(Math.random() * (max - min
 ## 例子
 
 ```js
-import { randomIntegerInRange } from '@jiaoxiaoyuan/j-utils'
+import { randomIntegerInRange } from 'jtoolset'
 const result = randomIntegerInRange(3,9)
 console.log(result) //=> 7
 ```

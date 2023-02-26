@@ -5,7 +5,7 @@
 ## 语法
 
 ```js
-import { arrWithoutDupli } from '@jiaoxiaoyuan/j-utils';
+import { arrWithoutDupli } from 'jtoolset';
 const result = arrWithoutDupli(arr);
 ```
 
@@ -26,7 +26,7 @@ const arrWithoutDupli = (arr) => [...new Set(arr)];
 ## 例子
 
 ```js
-import { arrWithoutDupli } from '@jiaoxiaoyuan/j-utils';
+import { arrWithoutDupli } from 'jtoolset';
 const fruits = [
   'apple',
   'mango',

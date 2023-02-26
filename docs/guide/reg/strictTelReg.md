@@ -7,7 +7,7 @@
 ## 语法
 
 ```js
-import { strictTelReg } from '@jiaoxiaoyuan/j-utils';
+import { strictTelReg } from 'jtoolset';
 const result = strictTelReg(value);
 ```
 
@@ -31,7 +31,7 @@ const strictTelReg = (value) => {
 ## 例子
 
 ```js
-import { strictTelReg } from '@jiaoxiaoyuan/j-utils';
+import { strictTelReg } from 'jtoolset';
 const result1 = strictTelReg('008617612340174')
 const result2 = strictTelReg('+8617612340174')
 const result3 = strictTelReg('19912340174')

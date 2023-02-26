@@ -6,7 +6,7 @@
 ## 语法
 
 ```js
-import { lowercaseReg } from '@jiaoxiaoyuan/j-utils';
+import { lowercaseReg } from 'jtoolset';
 const result = lowercaseReg(value);
 ```
 
@@ -30,7 +30,7 @@ const lowercaseReg = (value) => {
 ## 例子
 
 ```js
-import { lowercaseReg } from '@jiaoxiaoyuan/j-utils';
+import { lowercaseReg } from 'jtoolset';
 const result1 = lowercaseReg('warbler')
 const result2 = lowercaseReg('Warbler')
 

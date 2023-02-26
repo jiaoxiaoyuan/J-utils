@@ -7,7 +7,7 @@
 ## 语法
 
 ```js
-import { emailReg } from '@jiaoxiaoyuan/j-utils';
+import { emailReg } from 'jtoolset';
 const result = emailReg(value);
 ```
 
@@ -31,7 +31,7 @@ const emailReg = (value) => {
 ## 例子
 
 ```js
-import { emailReg } from '@jiaoxiaoyuan/j-utils';
+import { emailReg } from 'jtoolset';
 const result1 = emailReg('1741847465@qq.com')
 const result2 = emailReg('http://warbler.duwanyu.com/')
 

@@ -7,7 +7,7 @@
 ## 语法
 
 ```js
-import { bankReg } from '@jiaoxiaoyuan/j-utils';
+import { bankReg } from 'jtoolset';
 const result = bankReg(value);
 ```
 
@@ -31,7 +31,7 @@ const bankReg = (value) => {
 ## 例子
 
 ```js
-import { bankReg } from '@jiaoxiaoyuan/j-utils';
+import { bankReg } from 'jtoolset';
 const result1 = bankReg('6212262502009182455')
 
 console.log(result1) // true

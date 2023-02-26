@@ -6,7 +6,7 @@
 ### 通过 npm
 
 ```js
-npm i --save @jiaoxiaoyuan/j-utils
+npm i --save jtoolset
 ```
 
 

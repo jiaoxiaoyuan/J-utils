@@ -6,7 +6,7 @@
 
 
 ```js
-import { capitalizeWord } from '@jiaoxiaoyuan/j-utils'
+import { capitalizeWord } from 'jtoolset'
 const result = capitalizeWord(str)
 ```
 
@@ -30,7 +30,7 @@ const capitalizeWord = (string) => string.replace(/\b[a-z]/g, (letter) => letter
 
 
 ```js
-import { capitalizeWord } from '@jiaoxiaoyuan/j-utils'
+import { capitalizeWord } from 'jtoolset'
 const initStr = 'hello world , my name is warbler !'
 const finallyStr = capitalizeWord(initStr)
 console.log(finallyStr) //=> Hello World , My Name Is Warbler !

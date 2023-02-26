@@ -7,7 +7,7 @@
 ## 语法
 
 ```js
-import { landlineReg } from '@jiaoxiaoyuan/j-utils';
+import { landlineReg } from 'jtoolset';
 const result = landlineReg(value);
 ```
 
@@ -31,7 +31,7 @@ const landlineReg = (value) => {
 ## 例子
 
 ```js
-import { landlineReg } from '@jiaoxiaoyuan/j-utils';
+import { landlineReg } from 'jtoolset';
 const result1 = landlineReg('0936-4211235')
 const result2 = landlineReg('89076543')
 const result3 = landlineReg('010-12345678-1234')

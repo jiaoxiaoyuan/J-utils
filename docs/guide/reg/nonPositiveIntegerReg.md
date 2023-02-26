@@ -7,7 +7,7 @@
 ## 语法
 
 ```js
-import { nonPositiveIntegerReg } from '@jiaoxiaoyuan/j-utils';
+import { nonPositiveIntegerReg } from 'jtoolset';
 const result = nonPositiveIntegerReg(value);
 ```
 
@@ -31,7 +31,7 @@ const nonPositiveIntegerReg = (value) => {
 ## 例子
 
 ```js
-import { nonPositiveIntegerReg } from '@jiaoxiaoyuan/j-utils';
+import { nonPositiveIntegerReg } from 'jtoolset';
 const result1 = nonPositiveIntegerReg('0')
 const result2 = nonPositiveIntegerReg('-3')
 const result3 = nonPositiveIntegerReg('4')

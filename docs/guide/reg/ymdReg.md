@@ -7,7 +7,7 @@
 ## 语法
 
 ```js
-import { ymdReg } from '@jiaoxiaoyuan/j-utils';
+import { ymdReg } from 'jtoolset';
 const result = ymdReg(value);
 ```
 
@@ -31,7 +31,7 @@ const ymdReg = (value) => {
 ## 例子
 
 ```js
-import { ymdReg } from '@jiaoxiaoyuan/j-utils';
+import { ymdReg } from 'jtoolset';
 const result1 = ymdReg('2021-10-13 17:34:00')
 const result2 = ymdReg('2021-10-13')
 

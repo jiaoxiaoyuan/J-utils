@@ -7,7 +7,7 @@
 ## 语法
 
 ```js
-import { chineseNameReg } from '@jiaoxiaoyuan/j-utils';
+import { chineseNameReg } from 'jtoolset';
 const result = chineseNameReg(value);
 ```
 
@@ -31,7 +31,7 @@ const chineseNameReg = (value) => {
 ## 例子
 
 ```js
-import { chineseNameReg } from '@jiaoxiaoyuan/j-utils';
+import { chineseNameReg } from 'jtoolset';
 const result1 = chineseNameReg('一尾·流莺')
 const result2 = chineseNameReg('warbler')
 

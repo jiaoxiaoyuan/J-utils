@@ -6,7 +6,7 @@
 ## 语法
 
 ```js
-import { arrDifference } from '@jiaoxiaoyuan/j-utils'
+import { arrDifference } from 'jtoolset'
 const result = arrDifference(arr1, arr2)
 ```
 
@@ -31,7 +31,7 @@ const arrDifference = (arr1, arr2) => arr1.concat(arr2).filter((v, i, arr) => ar
 
 
 ```js
-import { arrDifference } from '@jiaoxiaoyuan/j-utils'
+import { arrDifference } from 'jtoolset'
 const arr1 = [1,2,4,5,8]
 const arr2 = [2,3,5,8,9]
 const result = arrDifference(arr1,arr2)

@@ -7,7 +7,7 @@
 ## 语法
 
 ```js
-import { urlWithPortReg } from '@jiaoxiaoyuan/j-utils';
+import { urlWithPortReg } from 'jtoolset';
 const result = urlWithPortReg(value);
 ```
 
@@ -31,7 +31,7 @@ const urlWithPortReg = (value) => {
 ## 例子
 
 ```js
-import { urlWithPortReg } from '@jiaoxiaoyuan/j-utils';
+import { urlWithPortReg } from 'jtoolset';
 const result1 = urlWithPortReg('http://warblerjs.duwanyu.com')
 const result2 = urlWithPortReg('http://warblerjs.duwanyu.com:3000')
 const result3 = urlWithPortReg('https://warblerjs.duwanyu.com:3000')

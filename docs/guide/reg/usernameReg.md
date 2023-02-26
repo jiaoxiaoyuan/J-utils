@@ -7,7 +7,7 @@
 ## 语法
 
 ```js
-import { usernameReg } from '@jiaoxiaoyuan/j-utils';
+import { usernameReg } from 'jtoolset';
 const result = usernameReg(value);
 ```
 
@@ -31,7 +31,7 @@ const usernameReg = (value) => {
 ## 例子
 
 ```js
-import { usernameReg } from '@jiaoxiaoyuan/j-utils';
+import { usernameReg } from 'jtoolset';
 const result1 = usernameReg('warbler_js01')
 
 console.log(result1) // true

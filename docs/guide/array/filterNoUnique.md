@@ -4,7 +4,7 @@
 ## 语法
 
 ```js
-import { filterNoUnique } from '@jiaoxiaoyuan/j-utils'
+import { filterNoUnique } from 'jtoolset'
 const result = filterNoUnique(arr)
 ```
 
@@ -25,7 +25,7 @@ const filterNoUnique = (arr) => arr.filter((i) => arr.indexOf(i) === arr.lastInd
 ## 例子
 
 ```js
-import { filterNoUnique } from '@jiaoxiaoyuan/j-utils'
+import { filterNoUnique } from 'jtoolset'
 const arr = [1,2,2,3,3,4,5,5,6]
 const result = filterNoUnique(arr)
 console.log(result) //=> [1,4,6]

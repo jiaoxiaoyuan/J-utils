@@ -3,7 +3,7 @@
 ## 语法
 
 ```js
-import { randomBoolean } from '@jiaoxiaoyuan/j-utils';
+import { randomBoolean } from 'jtoolset';
 const result = randomBoolean();
 ```
 
@@ -24,7 +24,7 @@ const randomBoolean = () => Math.random() >= 0.5;
 ## 例子
 
 ```js
-import { randomBoolean } from '@jiaoxiaoyuan/j-utils';
+import { randomBoolean } from 'jtoolset';
 const result = randomBoolean();
 console.log(result); //=> true
 ```

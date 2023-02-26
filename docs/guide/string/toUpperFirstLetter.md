@@ -5,7 +5,7 @@
 ## 语法
 
 ```js
-import { toUpperFirstLetter } from '@jiaoxiaoyuan/j-utils'
+import { toUpperFirstLetter } from 'jtoolset'
 const result = toUpperFirstLetter(str)
 ```
 
@@ -26,7 +26,7 @@ const toUpperFirstLetter = ([first, ...rest]) => first.toUpperCase() + rest.join
 ## 例子
 
 ```js
-import { toUpperFirstLetter } from '@jiaoxiaoyuan/j-utils'
+import { toUpperFirstLetter } from 'jtoolset'
 const initStr = 'hello,world'
 const finallyStr = toUpperFirstLetter(initStr)
 console.log(finallyStr) //=> 'Hello,world
