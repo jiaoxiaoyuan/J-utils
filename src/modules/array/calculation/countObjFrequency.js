@@ -5,8 +5,7 @@
  * @param { String | Number } value 需要统计出现次数的属性值
  * @return { Number } 目标属性值的出现次数
  */
-const countObjFrequency = (arr, key, value) =>
-    arr.reduce((pre, cur) => (cur[key] === value ? pre + 1 : pre + 0), 0);
+const countObjFrequency = (arr, key, value) => arr.reduce((pre, cur) => (cur[key] === value ? pre + 1 : pre + 0), 0)
 
 /**  用法
   const fruits = [
@@ -21,4 +20,4 @@ const countObjFrequency = (arr, key, value) =>
   console.log(result) //=> 4
  */
 
-export default countObjFrequency;
+export default countObjFrequency

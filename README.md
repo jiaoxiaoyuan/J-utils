@@ -31,7 +31,7 @@ pnpm install jtoolset --save
 
 ## 升级版本
 
-npm安装指定版本: npm i jtoolset@1.0.3 --save
+npm安装指定版本: npm i jtoolset@1.0.4 --save
 
 npm升级指定版本的包：npm update jtoolset --save
 

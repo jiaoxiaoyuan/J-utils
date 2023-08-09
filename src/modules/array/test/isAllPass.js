@@ -4,7 +4,7 @@
  * @param { Function } fn 验证条件。
  * @return { Boolean } true 所有元素都通过检测  false 存在元素没有通过检测
  */
-const isAllPass = (arr, fn) => arr.every(fn);
+const isAllPass = (arr, fn) => arr.every(fn)
 
 /**  用法
 const money = [30, 24, 28, 32];
@@ -14,4 +14,4 @@ console.log(result1); //=> true
 console.log(result2); //=> false
  */
 
-export default isAllPass;
+export default isAllPass
