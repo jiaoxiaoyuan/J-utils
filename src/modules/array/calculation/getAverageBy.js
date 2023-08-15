@@ -4,8 +4,7 @@
  * @param { String } key 需要计算平均值的 key
  * @return { Number } 指定健的平均值
  */
-const averageBy = (arr, key) =>
-    arr.reduce((pre, cur) => pre + cur[key], 0) / arr.length;
+const averageBy = (arr, key) => arr.reduce((pre, cur) => pre + cur[key], 0) / arr.length
 
 /** 用法
   const fruits = [
@@ -19,4 +18,4 @@ const averageBy = (arr, key) =>
   console.log(result) //=> 5.4
  */
 
-export default averageBy;
+export default averageBy

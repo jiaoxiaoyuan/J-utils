@@ -4,7 +4,7 @@
  * @param { String } key 需要计算总和的 key
  * @return { Number } 对象数组某个属性值的总和
  */
-const getTotalBy = (arr, key) => arr.reduce((pre, cur) => pre + cur[key], 0);
+const getTotalBy = (arr, key) => arr.reduce((pre, cur) => pre + cur[key], 0)
 
 /**
 const fruits = [
@@ -18,4 +18,4 @@ const result = getTotalBy(fruits,'quantity')
 console.log(result) //=> 27
  */
 
-export default getTotalBy;
+export default getTotalBy
