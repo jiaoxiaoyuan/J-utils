@@ -1,34 +1,80 @@
 {
-	"name": "jtoolset",
-	"version": "1.0.1-beta-2",
-	"description": "前端工具集",
-	"main": "./lib/jtoolset-min",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"build:watch": "webpack --watch"
-	},
-	"keywords": [
-		"utils",
-		"前端工具类"
-	],
-	"files": [
-		"lib",
-		"src"
-	],
-	"author": "JIAOXIAOYUAN",
-	"license": "ISC",
-	"homepage": "https://jtoolset-docs.vercel.app/",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/jiaoxiaoyuan/J-utils.git"
-	},
-	"publicConfig": {
-		"registry": "https://registry.npmjs.org/"
-	},
-	"devDependencies": {},
-	"dependencies": {
-		"babel-loader": "^9.1.2",
-		"webpack": "^5.75.0",
-		"webpack-cli": "^5.0.1"
-	}
+  "name": "xijs",
+  "version": "1.2.5",
+  "description": "A business - oriented scene Js Library",
+  "author": "xuxiaoxi",
+  "keywords": [
+    "javascript tool",
+    "js tool",
+    "js lib",
+    "Js Library",
+    "lodash",
+    "lowcode tool"
+  ],
+  "contributors": [
+    "徐小夕",
+    "wujixialan",
+    "EasyRo",
+    "bigFace2019",
+    "kevin",
+    "20savage",
+    "MrYeZiqing",
+    "WangLei802"
+  ],
+  "scripts": {
+    "start": "export NODE_OPTIONS=--openssl-legacy-provider && dumi dev",
+    "docs:build": "dumi build",
+    "docs:deploy": "gh-pages -d docs-dist",
+    "build": "father-build",
+    "deploy": "npm run docs:build && npm run docs:deploy",
+    "release": "npm run lint && npm run build && npm publish --access public",
+    "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
+    "test": "umi-test",
+    "test:coverage": "umi-test --coverage",
+    "lint": "eslint src/**/*.ts --fix",
+    "test:onlyChanged":"umi-test --onlyChanged"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "typings": "dist/index.d.ts",
+  "gitHooks": {
+    "pre-commit": "npm run test:onlyChanged"
+  },
+  "lint-staged": {
+    "*.ts": [
+      "npm run lint"
+    ]
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.18.9",
+    "lodash.clonedeep": "^4.5.0",
+    "lodash.difference": "^4.5.0",
+    "nanoid": "^3.1.30",
+    "qs": "^6.10.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.1",
+    "@commitlint/config-conventional": "^17.6.1",
+    "@types/jest": "^29.5.1",
+    "@types/lodash.clonedeep": "^4.5.6",
+    "@types/lodash.difference": "^4.5.7",
+    "@types/qs": "^6.9.7",
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "@typescript-eslint/parser": "^5.59.0",
+    "@umijs/test": "^3.0.5",
+    "dumi": "^1.0.17",
+    "eslint": "^8.39.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "father-build": "^1.17.2",
+    "gh-pages": "^3.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.1",
+    "prettier": "^2.8.8",
+    "yorkie": "^2.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.com"
+  },
+  "license": "MIT"
 }

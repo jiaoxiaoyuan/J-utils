@@ -1,4 +1,0 @@
-// 获得一个随机的布尔值（true/false）
-import randomBoolean from './other/randomBoolean';
-
-export { randomBoolean };
