@@ -22,7 +22,7 @@
     "WangLei802"
   ],
   "scripts": {
-    "start": "export NODE_OPTIONS=--openssl-legacy-provider && dumi dev",
+    "start": "dumi dev",
     "docs:build": "dumi build",
     "docs:deploy": "gh-pages -d docs-dist",
     "build": "father-build",
